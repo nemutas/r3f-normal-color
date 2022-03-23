@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/r3f-normal-color/static/css/main.227dc7dd.css",
-    "main.js": "/r3f-normal-color/static/js/main.441292c5.js",
+    "main.js": "/r3f-normal-color/static/js/main.2a640d3e.js",
     "static/js/27.41d6590a.chunk.js": "/r3f-normal-color/static/js/27.41d6590a.chunk.js",
     "index.html": "/r3f-normal-color/index.html"
   },
   "entrypoints": [
     "static/css/main.227dc7dd.css",
-    "static/js/main.441292c5.js"
+    "static/js/main.2a640d3e.js"
   ]
 }
