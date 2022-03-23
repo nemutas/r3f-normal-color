@@ -1,10 +1,10 @@
 # About
-In this application, we have replicated the model of [Richard Mattka's site](https://richardmattka.com/).<br>
-The gyoroid parameters can be manipulated to create a variety of shapes.
+This application is a Model with Raymarching with physics simulation.<br>
+However, the position and rotation are not accurate.
 
-https://nemutas.github.io/r3f-gyroid-sphere-operable/
+https://nemutas.github.io/r3f-normal-color/
 
-![output(video-cutter-js com)](https://user-images.githubusercontent.com/46724121/158643883-9a77a4c3-dfd7-4e81-ad78-f8313e547161.gif)
+![output(video-cutter-js com)](https://user-images.githubusercontent.com/46724121/159666995-c4c9a119-f4a0-4d32-ba3d-3da4d2c899d4.gif)
 
 # Technology
 
@@ -12,7 +12,7 @@ https://nemutas.github.io/r3f-gyroid-sphere-operable/
 - React（Create React App）
 - React Three Fiber（Three.js）
 - Raymarching
-- Post-processing
+- [use-cannon](https://github.com/pmndrs/use-cannon)
 
 # Reference
 This is a technical document on Raymarching. They are all very easy to understand and are excellent documents.
@@ -21,6 +21,10 @@ This is a technical document on Raymarching. They are all very easy to understan
 * [Inigo Quilez - articles](https://www.iquilezles.org/www/index.htm)
 * [Raymarching simple scene #48](https://www.youtube.com/watch?v=q2WcGi3Cr9w&t=6s)
 * [Live Coding and Alien Orb - Modeling & Shadows](https://www.youtube.com/watch?v=b0AayhCO7s8&t=416s)
+
+Physics simulation using use-cannon.
+
+* [BestServedBold Christmas Baubles](https://codesandbox.io/s/bestservedbold-christmas-baubles-zxpv7)
 
 # License
 
