@@ -1,8 +1,6 @@
 import React, { useEffect, VFC } from 'react';
 import * as THREE from 'three';
-import {
-	Debug, Physics, Triplet, useBox, usePlane, useSphere, VectorApi
-} from '@react-three/cannon';
+import { Debug, Physics, Triplet, useBox, usePlane, useSphere } from '@react-three/cannon';
 import { useFrame } from '@react-three/fiber';
 import { AMOUNT, datas } from '../../modules/store';
 
