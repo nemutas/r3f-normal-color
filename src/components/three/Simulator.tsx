@@ -62,7 +62,7 @@ const PhysicalBox: VFC<{ storePos: THREE.Vector3; storeRot: THREE.Vector3 }> = (
 
 	useEffect(() => {
 		const vec = new THREE.Vector3()
-		const unsubscribe = (api.position as VectorApi).subscribe(p => {
+		const unsubscribe = api.position.subscribe(p => {
 			storePos.set(p[0], p[1], p[2])
 
 			return api.applyForce(

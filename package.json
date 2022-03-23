@@ -4,7 +4,7 @@
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
-		"@react-three/cannon": "^5.1.0",
+		"@react-three/cannon": "^4.6.1",
 		"@react-three/drei": "^8.16.5",
 		"@react-three/fiber": "^7.0.26",
 		"@testing-library/jest-dom": "^5.16.2",
