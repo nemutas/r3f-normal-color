@@ -18,6 +18,7 @@ export const TCanvas: VFC = () => {
 				far: 2000
 			}}
 			dpr={window.devicePixelRatio}>
+			<color attach="background" args={['#000']} />
 			{/* simulator */}
 			<Simulator />
 			{/* objects */}
